@@ -40,7 +40,7 @@ app.use(passport.authenticate('session'));
 app.use('/', indexRouter);
 app.use('/', authRouter);
 app.use('/users', usersRouter);
-app.use('/hotels', hotelsRouter);
+app.use('/hotel', hotelsRouter);
 app.use('/rooms', roomsRouter);
 
 // catch 404 and forward to error handler
